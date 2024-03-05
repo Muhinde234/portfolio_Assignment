@@ -9,6 +9,7 @@
 header{
     background-color:black;
     clip-path: polygon(0 0,100% 0 ,100% 100%,73% 94%,0 100%) ;
+
 }
 header nav .both a{
     color:white;
@@ -88,4 +89,40 @@ font-size: large;
 margin-right: 10rem;
 text-transform: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-primary{
+    background:transparent;
+    border-color: rgb(29,221,189);
+    color: rgb(29,221,189);
+    margin-bottom: 1rem;
+    margin-left: 60rem;
+    font-size: x-large;
+}
+.btn-secondary
+{
+    background: transparent;
+    border-color: rgb(29,221,189);
+    color: rgb(29,221,189);
+    margin-top: 2rem;
+    margin-left:4rem ;
+    font-size: x-large;
+}
+.btn-primary:hover{
+    background-color: rgb(29,221,189);
+    color: rgb(29,221,189);
+}
+.btn-secondary:hover{
+    background-color: rgb(29,221,189);
+    color: rgb(29,221,189);
+}
+
+.btn
+{
+
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
 }
