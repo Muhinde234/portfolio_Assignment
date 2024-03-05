@@ -7,5 +7,26 @@
 }
 header{
     background-color:black;
-    clip-path: polygon(0 0,100% 0 ,100% 100%,73% 94%,0 100%) ;
+    clip-path: polygon(0 0,100% 0 ,100% 100%,100% 100%,0 100%) ;
+}
+header nav .both a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right:2 rem ;
+    text-transform: uppercase;
+    transition: all 0.2s ease ;
+
+}
+header nav .both a:hover{
+    color: aqua;
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav.logo
+{
+    margin-right: 3rem;
+}
+body{
+    background-color: black;
 }
