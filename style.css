@@ -1,0 +1,11 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased ;
+}
+header{
+    background-color:black;
+    clip-path: polygon(0 0,100% 0 ,100% 100%,73% 94%,0 100%) ;
+}
